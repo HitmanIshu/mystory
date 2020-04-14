@@ -1,0 +1,11 @@
+1. git init
+2. git status(shows which files are not in Staging area.)
+3. git add . or filename(to add the files into staging area which are not in it.)
+4. git commit -m "Description about your particular savepoint"(this will create a savepoint.)
+5. git log(shows us when and by whom a savepoint is created .)
+6. git diff(shows us difference between modifed file which is not commited yet and previously commited file.)
+7. git checkout file(go the previously commted file.) 
+8. git remote add origin <link to the github where your repositry is created>
+9. git push -u origin master.(this will push wo file from local repository to the remote repository i.e GitHub.)
+10. git rm --cached -r . (to remove all the files from the staging area).
+11. git clone <link of file that has to be brought from the remote repository(GitHub) to your local repository.)
